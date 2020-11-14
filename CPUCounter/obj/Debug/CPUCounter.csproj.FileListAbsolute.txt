@@ -1,0 +1,14 @@
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\obj\Debug\MainWindow.g.cs
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\obj\Debug\App.g.cs
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\obj\Debug\CPUCounter_MarkupCompile.cache
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\bin\Debug\CPUCounter.exe.config
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\bin\Debug\CPUCounter.exe
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\bin\Debug\CPUCounter.pdb
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\obj\Debug\MainWindow.baml
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\obj\Debug\CPUCounter.g.resources
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\obj\Debug\CPUCounter.Properties.Resources.resources
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\obj\Debug\CPUCounter.csproj.GenerateResource.cache
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\obj\Debug\CPUCounter.csproj.CoreCompileInputs.cache
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\obj\Debug\CPUCounter.exe
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\obj\Debug\CPUCounter.pdb
+C:\Users\Ksushka\Source\Repos\MemoryApp\CPUCounter\obj\Debug\CPUCounter.csprojAssemblyReference.cache

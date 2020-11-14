@@ -1,0 +1,42 @@
+﻿<Window x:Class="CPUCounter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="692.795" Width="520.795" Background="Black">
+    <Grid Margin="8,4,0,-5.8" HorizontalAlignment="Left" Width="503" RenderTransformOrigin="0.503,0.444">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.161"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="98*"/>
+            <ColumnDefinition Width="359*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="106*"></RowDefinition>
+            <RowDefinition Height="126*"></RowDefinition>
+            <RowDefinition Height="84.8"></RowDefinition>
+            <RowDefinition Height="86*"></RowDefinition>
+            <RowDefinition Height="77*"></RowDefinition>
+            <RowDefinition Height="95*"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Label Name="Processor" Content="CPU" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="Aqua" Margin="70.6,37,207.2,43.4" Grid.Column="4" Height="26" Width="39" RenderTransformOrigin="1.774,1.108"/>
+        <ProgressBar Name="Proc" BorderBrush ="Aquamarine" Minimum="0" Maximum="100" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="78.2,25.6,156.6,26.8" Grid.Column="3" Foreground="Aqua" RenderTransformOrigin="0.606,0.536" Grid.Row="1" Grid.ColumnSpan="2" />
+        <Label Name="ProcLab"  Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Margin="48.6,40.6,211.6,44.8" Grid.Column="4" Foreground="MediumSeaGreen" Height="41" RenderTransformOrigin="-0.387,0.315" Width="99"  />
+        <Label Name="MBbytes" Content="Available MBbytes" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"   Foreground="Aqua" Margin="86,33.2,143.2,26.6" Width="174" Grid.Column="3" Height="25" RenderTransformOrigin="-0.077,0.008" Grid.ColumnSpan="2" />
+        <Label Name="AvaMBytes" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Foreground="Aqua" Margin="27.6,26.4,163.2,27" Width="126" Grid.Column="4" Height="33" RenderTransformOrigin="0.572,-0.994" />
+        <Label Name="Sys" Grid.Row="4"  Content =" System Time Up" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Margin="9.6,10,181.2,25.8" Width="126" Grid.Column="4" Height="41" RenderTransformOrigin="0.572,-0.994"/>
+        <Label Name="SysTimeUp" Grid.Row="5" VerticalAlignment="Bottom" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Foreground="Aqua" Margin="0.6,0,190.2,30" Width="126" Grid.Column="4" Height="33" RenderTransformOrigin="0.572,-0.994"/>
+    </Grid>
+</Window>
